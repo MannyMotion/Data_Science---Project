@@ -23,12 +23,19 @@ Exception: tooling that is not his learning target (e.g. `plan/goal.py`) can be 
 - `DECISIONS.md` — choices made and why (newest first).
 - `learning/` — course work (freeCodeCamp video, Kaggle, Rosalind). `projects/` — portfolio projects, one folder each.
 - `private/` — personal plans, applications, contacts. **Git-ignored: never committed or pushed.**
+- `company/` — the learning company: `HOW_IT_WORKS.md` (start here), `roles/` (Mentor, Tutor, Coach, Strategist,
+  Librarian, Careers Officer, Council, Assessor — one page each), `tools/` (coach.py + assessor.py, zero-token,
+  tests in `test_company.py`), `library/` (papers, datasets, search guide). The Mentor's weekly plan is the
+  `this_week` list in `plan/goals.json` — the Coach's 07:00 Telegram reads it.
+- `.env` — Telegram token. Git-ignored. Never print it, never commit it, never ask Manny to paste it into chat.
 
 ## Every session
 1. Run `python plan/goal.py` and say what's due / overdue in one or two lines.
 2. Ask what he's working on today; keep to the daily split: ~2h learning · ~2h project · ~1h applications/networking.
 3. When a task is finished: `python plan/goal.py done <id>` — celebrate it properly.
-4. Sundays: weekly review (`plan/WEEKLY_REVIEW_TEMPLATE.md`) → copy into `private/reviews/`.
+4. Sundays: the Coach pre-fills `private/reviews/<date>.md`; go through it with him, then update `this_week` in
+   `plan/goals.json` (the Mentor's plan for next week). Last Sunday of the month: the Strategist's review.
+5. Work days are after an 08:00–18:00 job: the routine is `company/ROUTINE_CARD.md` (~2.5h weekdays, 5h Saturday).
 
 ## Standards (borrowed from his trading desk — these are what employers want to see)
 - **Write the question and plan before touching the data** (what would convince me? what would prove me wrong?).

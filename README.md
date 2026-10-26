@@ -22,6 +22,8 @@ Python for data science (freeCodeCamp), Kaggle Learn, Rosalind bioinformatics pr
 plan/        goals.json (source of truth) · goal.py (tracker) · board.html (visual board) · weekly review template
 learning/    courses and practice problems
 projects/    portfolio projects, one folder each
+company/     how I run my learning: roles, a zero-cost Telegram coach (Python + Task Scheduler),
+             points/streak tracker, and a library of papers and public datasets
 ```
 
 <sub>Goal tracker: `python plan/goal.py` (status) · `python plan/goal.py done G2.1` (tick off + celebrate) · `python plan/goal.py board` (open the board)</sub>

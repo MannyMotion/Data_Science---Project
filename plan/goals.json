@@ -2,6 +2,7 @@
   "owner": "Manny (Emmanuel Ogbu)",
   "vision": "Work as a bioinformatician / data scientist by April 2027, with a portfolio that proves I can turn biological data into answers.",
   "deadline": "2027-04-01",
+  "this_week": ["G2.1", "G7.1", "G1.1", "G1.2", "G8.1", "G9.1", "G9.2"],
   "goals": [
     {
       "id": "G1",
