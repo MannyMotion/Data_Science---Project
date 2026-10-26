@@ -2,3 +2,12 @@
 private/
 __pycache__/
 *.tmp
+
+# secrets - the Telegram token lives here and must never reach GitHub
+.env
+.env.*
+!.env.example
+
+# The Coach's own bookkeeping (local to this PC)
+company/tools/coach_state.json
+company/tools/coach_log.txt
