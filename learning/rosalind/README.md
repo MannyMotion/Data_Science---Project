@@ -6,7 +6,8 @@ and a **Saturday week review**: recap, annotate every line of the week's code, o
 One folder per problem, all my own code:
 - `PLAN.md`: a copy of [PLAN_TEMPLATE.md](PLAN_TEMPLATE.md) holding my attempt at the 7 steps, the review, the
   worked plan, and my recap ([the method](../HOW_I_LEARN.md))
-- the solution `.py`, annotated line by line in my own words
+- a Jupyter notebook (e.g. `gc.ipynb`): the question, each piece of code and its output, built step by step.
+  Wrong attempts are kept and labelled, and every line is annotated in my own words.
 - the small example input (`sample.txt`) I checked by hand
 
 | # | Problem | Task | Date solved | What I learned |

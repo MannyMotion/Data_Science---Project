@@ -25,6 +25,24 @@ and Claude only reviews. Recognising a worked answer isn't the same as producing
 
 The same loop applies to video sessions (predict → type → change something) and to every PM2.5 v2 step.
 
+**How I want to be taught** (my answers, 28 Oct):
+- **Something new:** a short explanation → a picture → an analogy → straight into an easy example.
+- **When I'm wrong:**
+  1. Tell me what's wrong straight away.
+  2. Give up to 3 hints.
+  3. If I still haven't got it, explain the process and give the answer. That item goes on the **Rebrush list** in
+     [TOOLBOX.md](TOOLBOX.md).
+- **Messages:** short and straight to the point, broken into steps. Scientific terms are welcome, with their meaning
+  the first time. Then keep using them.
+- **After every question:** [TOOLBOX.md](TOOLBOX.md) gets the new options for each step (when and why), new words,
+  and the rebrush items.
+- **Where the work goes:** one folder per question, holding:
+  - `PLAN.md`
+  - a Jupyter notebook (`.ipynb`) with text, code and outputs together, wrong attempts kept and labelled
+  - the small example file
+
+  Files are named by what they do, never `test1` or `Untitled`.
+
 ## 2. The lanes (see the [routine card](../company/ROUTINE_CARD.md))
 | Lane | When | What, in order |
 |---|---|---|
