@@ -1,0 +1,5 @@
+>Rosalind_0001
+ATGCGC
+GGAT
+>Rosalind_0002
+ATATAT
