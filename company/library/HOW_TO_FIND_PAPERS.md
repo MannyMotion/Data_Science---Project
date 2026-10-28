@@ -57,4 +57,4 @@ does. That paragraph shows reviewers and interviewers that you understand the an
 ## Exercises (the Librarian checks them)
 1. Pick a disease you care about. Find **3 open-access RNA-seq papers** on it that name a GEO accession → add them to `READING_LIST.md`.
 2. For the best 2, open the GSE pages and fill in a row each in `DATASETS.md` (samples per group, counts available?, download steps).
-3. Run checklist 3 on both, pick one, and say why in 3 sentences. That's task G3.1.
+3. Run checklist 3 on both, pick one, and say why in 3 sentences. That's task G8.1.

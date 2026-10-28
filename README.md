@@ -10,12 +10,15 @@ applying machine learning and statistics to biomedical data for disease predicti
 | Project | What it shows | Status |
 |---|---|---|
 | ⭐ [BioAgent](https://github.com/MannyMotion/Bioinformatics-Agent) | Upload a FASTA/FASTQ, RNA-seq or VCF file → automatic QC, differential expression or variant annotation, plots, and a local-LLM explanation (FastAPI, RAG with ChromaDB) | v0.5.1 |
-| [Gene expression analysis](projects/01_gene_expression_analysis/) | RNA-seq differential expression + pathway enrichment on real public data | planned |
-| [Disease prediction with ML](projects/02_disease_prediction_ml/) | Classification from gene expression with honest validation | planned |
-| [Reproducible pipeline](projects/03_snakemake_pipeline/) | FASTQ → counts with Snakemake, one command | planned |
+| [PM2.5 v2: air pollution and health](projects/01_pm25_air_pollution_health/) | My MSc dissertation rebuilt properly: public pollution + NHS health data per council area, a reproducible pipeline and honest modelling | in progress |
+| [PM2.5 v2 Part B: genetics](projects/02_pm25_genetics/) | Adding the genetics correctly: per-person scores, variants matched on position | planned |
+| [Disease prediction with ML](projects/03_disease_prediction_ml/) | Classification on a disease dataset with honest validation | planned |
+| [Gene expression analysis](projects/04_gene_expression_analysis/) | RNA-seq differential expression + pathway enrichment on real public data | planned |
+| [Reproducible pipeline](projects/05_snakemake_pipeline/) | FASTQ → counts with Snakemake, one command | planned |
 
 ## Learning
-Python for data science (freeCodeCamp), Kaggle Learn, Rosalind bioinformatics problems — see [learning/](learning/).
+Python for data science (freeCodeCamp), Kaggle Learn, Rosalind bioinformatics problems, SQL and R — see
+[learning/](learning/). How I work through every step: [learning/HOW_I_LEARN.md](learning/HOW_I_LEARN.md).
 
 ## Repo layout
 ```

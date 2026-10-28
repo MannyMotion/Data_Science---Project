@@ -1,38 +1,37 @@
 # Daily routine card
 
-The split is always **learning → project → career**, in that order: the hardest thinking first, while there's
-energy, and applications last so they always get done.
+The order is always **learning → project or Rosalind → career**: the hardest thinking first, while there's energy,
+and applications last so they always get done. How each step works: [the loop](../learning/HOW_I_LEARN.md).
 
 ## Work days (job 08:00 → 16:00–18:00)
-| Time | Block | What |
+| Time | Mon · Wed · Fri | Tue · Thu |
 |---|---|---|
-| 07:00 | 📱 Coach | Read today's 3 on the way to work (30 seconds) |
-| 19:15–20:15 | 📚 Learning (1h) | Video session / Kaggle / Rosalind — type every example, predict before running |
-| 20:15–21:15 | 🧪 Project (1h) | The current portfolio project (or the video's projects until Project 1 starts) |
-| 21:15–21:45 | 💼 Career (30m) | One application, or one job-hunt task (CV, LinkedIn, a message to a contact) |
-| 21:45 | 📱 Coach | Tick off what's done · 3 sentences in `LEARNING_LOG.md` · commit + push |
+| 07:00 | 📱 Coach: read today's plan (30 seconds) | 📱 Coach |
+| 19:15–20:15 | 📚 **Learning:** the next video session (then Kaggle / Git / SQL / R) | 📚 **Learning:** the next video session |
+| 20:15–21:15 | 🧪 **Project:** PM2.5 v2, the next step | 🧩 **Rosalind:** one problem (PLAN.md first, then code) |
+| 21:15–21:45 | 💼 **Career:** one application or one job-hunt task | 💼 **Career** |
+| 21:45 | 📱 Coach · **box it:** tick it off · 3 sentences in `LEARNING_LOG.md` · commit + push | same |
 
 **Finished early (16:00 / 17:00)?** Start at 17:30 and add a bonus hour. That's where catch-up happens.
 
-## Saturday (the full day: 5 hours)
+## Saturday (5 hours)
 | Time | Block |
 |---|---|
-| 10:00–12:00 | 📚 Learning (2h) |
-| 13:00–15:00 | 🧪 Project (2h) |
-| 15:30–16:30 | 💼 Career (1h) — the week's tailored applications |
+| 10:00–11:00 | 📚 Learning |
+| 11:00–12:00 | 🧩 Week review: recap the week's questions · annotate every line of the week's code · the big question · push |
+| 13:00–15:00 | 🧪 Project (2 hours: the biggest project step of the week) |
+| 15:30–16:30 | 💼 Career: the week's tailored applications |
 
 ## Sunday
 **Rest day.** Plus the weekly review at 18:00 (20 minutes, the Coach sends it). If you'd rather rest on another
 day, do that: the streak allows one rest day every week.
 
 ## The week adds up to
-~12.5h on work days + 5h Saturday ≈ **17–18 focused hours a week**: ~7h learning · ~7h project · ~4h career
-(enough for 5 tailored applications at ~45 minutes each).
+~17.5 focused hours: **6h learning · 5h project · 3h Rosalind · 3.5h career** (4–5 tailored applications).
 
 ## Why not 5 hours every day?
 Five hours after a 08:00–18:00 job means working until midnight, six days a week, for five months. That works for
 a week, then you burn out. 17–18 steady hours every week beats 30 for three weeks and then nothing.
-The full 2h · 2h · 1h day is still here: it's Saturday, and any day off.
 
 ## Rules that keep it going
 - Phone in another room during the blocks.

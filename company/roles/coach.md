@@ -5,7 +5,7 @@ AI and no tokens.
 
 | When | Message |
 |---|---|
-| Every day 07:00 | **Today's 3:** one 📚 learning, one 🧪 project, one 💼 career task (from the Mentor's `this_week` list, then soonest due) · overdue nudges · streak, rank, applications this week |
+| Every day 07:00 | **Today's plan:** one task per block: 📚 learning, 🧪 project (Mon · Wed · Fri · Sat) or 🧩 Rosalind (Tue · Thu · Sat), 💼 career (from the Mentor's `this_week` list, then soonest due) · overdue nudges · streak, rank, applications this week |
 | Every day 21:45 | **Evening check-in:** what got ticked today, what's still open, does today count for the streak |
 | Sunday 18:00 | **Weekly review:** tasks done, applications vs the target of 5, and a ready-made review file in `private/reviews/` with the week's facts filled in |
 

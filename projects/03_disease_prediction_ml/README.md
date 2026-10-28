@@ -1,4 +1,4 @@
-# Project 2 — Disease prediction with machine learning · goal G4
+# Project 3 — Disease prediction with machine learning · goal G7
 
 _Status: not started._
 

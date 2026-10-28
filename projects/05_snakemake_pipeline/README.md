@@ -1,4 +1,4 @@
-# Project 3 — A reproducible RNA-seq pipeline (Snakemake) · goal G5
+# Project 5 — A reproducible RNA-seq pipeline (Snakemake) · goal G9
 
 _Status: not started._
 

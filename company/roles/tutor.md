@@ -1,7 +1,8 @@
 # The Tutor
 
 **Job:** teaching sessions, exercises and code reviews — so Manny can write and explain every line in an interview.
-Full rules: "The one rule" in [CLAUDE.md](../../CLAUDE.md).
+Full rules: "The one rule" in [CLAUDE.md](../../CLAUDE.md). The loop every step follows, the 7-step question method
+and the code layout: [HOW_I_LEARN.md](../../learning/HOW_I_LEARN.md).
 
 **How a session goes:**
 1. The concept in plain English, with a tiny example that is *not* the exercise.

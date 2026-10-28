@@ -2,7 +2,7 @@
 
 Commands (run from the repo folder):
     python company/tools/coach.py setup       first time only: finds your chat id, saves it to .env, sends a test
-    python company/tools/coach.py morning     today's 3 tasks (one learning, one project, one career) + overdue nudges
+    python company/tools/coach.py morning     today's plan (learning, project or Rosalind, career) + overdue nudges
     python company/tools/coach.py evening     "what did you finish?" + does today count for your streak
     python company/tools/coach.py sunday      weekly review prompt + applications count; starts this week's review file
 Add --dry-run to print a message instead of sending it, --force to send again on the same day.
@@ -34,9 +34,11 @@ APPS_TARGET = 5
 
 # which slot of the daily routine each goal category belongs to (see company/ROUTINE_CARD.md)
 SLOT_OF = {"Skills": "learning", "Credentials": "learning",
-           "Portfolio": "project", "Visibility": "project", "Research": "project",
-           "Career": "career", "Network": "career", "Life": "career"}
-SLOTS = [("learning", "📚 Learning (1h)"), ("project", "🧪 Project (1h)"), ("career", "💼 Career (30m)")]
+           "Portfolio": "project", "Research": "project", "Practice": "practice",
+           "Visibility": "career", "Career": "career", "Network": "career", "Life": "career"}
+SLOTS = [("learning", "📚 Learning (1h)"), ("project", "🧪 Project (1h)"), ("practice", "🧩 Rosalind (1h)"),
+         ("career", "💼 Career (30m)")]
+DAY_NAMES = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]       # how goals.json names a goal's "days"
 
 
 # ── small helpers ───────────────────────────────────────────────────────────
@@ -116,13 +118,22 @@ def open_tasks(data: dict) -> list[tuple[dict, dict]]:
     return [(g, t) for g in data["goals"] for t in g["tasks"] if not t["done"]]
 
 
-def pick_today(data: dict) -> list[tuple[str, dict]]:
-    """One task per routine slot: the Mentor's this_week list first (in its order), then soonest due date."""
+def runs_today(goal: dict, today: date) -> bool:
+    """A goal can name the days it runs on (e.g. Rosalind: Tue, Thu, Sat). No "days" = every day."""
+    days = goal.get("days")
+    return not days or DAY_NAMES[today.weekday()] in days
+
+
+def pick_today(data: dict, today: date | None = None) -> list[tuple[str, dict]]:
+    """One task per routine slot: the Mentor's this_week list first (in its order), then soonest due date.
+    Only goals that run today are considered."""
+    today = today or date.today()
     focus = [i.lower() for i in data.get("this_week", [])]
     rank = lambda gt: (focus.index(gt[1]["id"].lower()) if gt[1]["id"].lower() in focus else len(focus), gt[1]["due"])
     picks = []
     for slot, label in SLOTS:
-        options = sorted((gt for gt in open_tasks(data) if SLOT_OF.get(gt[0]["category"]) == slot), key=rank)
+        options = sorted((gt for gt in open_tasks(data)
+                          if SLOT_OF.get(gt[0]["category"]) == slot and runs_today(gt[0], today)), key=rank)
         if options:
             picks.append((label, options[0][1]))
     return picks
@@ -147,11 +158,11 @@ def rank_news(r: dict, state: dict) -> str:
 
 def morning_message(data: dict, r: dict, now: datetime) -> str:
     today = now.date()
-    picks = pick_today(data)
+    picks = pick_today(data, today)
     lines = [f"☀️ Morning Manny - {today:%a %d %b}"]
     if now.hour >= 12:
         lines.append("(sent late - your PC was off at 07:00)")
-    lines.append("\nToday's 3, after work:")
+    lines.append("\nToday's plan, after work:")
     lines += [f"{label}: {t['id']} {t['title']} - {when(t['due'], today)}" for label, t in picks]
     late = overdue(data, today, {t["id"] for _, t in picks})
     if late:
@@ -172,8 +183,8 @@ def evening_message(data: dict, r: dict, now: datetime) -> str:
     if finished:
         lines.append("\n✅ Already ticked today:")
         lines += [f"  {t['id']} {t['title']}" for t in finished]
-    lines.append("\nStill open from today's 3:")
-    lines += [f"  {label}: {t['id']} {t['title']}" for label, t in pick_today(data)]
+    lines.append("\nStill open from today's plan:")
+    lines += [f"  {label}: {t['id']} {t['title']}" for label, t in pick_today(data, today)]
     lines.append("\nFinished one? python plan/goal.py done <id>")
     lines.append("Learned something? 3 sentences in LEARNING_LOG.md - that's your interview answer.")
     if r["active_today"]:

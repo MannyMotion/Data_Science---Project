@@ -64,6 +64,14 @@ ids = [t["id"] for _, t in picks]
 check("one task per slot", len(picks) == 2 and picks[0][0].startswith("📚") and picks[1][0].startswith("💼"))
 check("the Mentor's this_week list wins over due date", ids[0] == "G2.2")
 check("otherwise soonest due first", ids[1] == "G1.1")
+week = {"this_week": [], "goals": [
+    {"id": "G3", "category": "Practice", "days": ["Tue", "Thu", "Sat"], "tasks": [task("G3.1", "2026-11-01")]},
+    {"id": "G5", "category": "Portfolio", "days": ["Mon", "Wed", "Fri", "Sat"], "tasks": [task("G5.1", "2026-11-01")]},
+]}
+slots_on = lambda day: [label[0] for label, _ in C.pick_today(week, day)]
+check("Rosalind only on its days", "🧩" in slots_on(date(2026, 10, 29)) and "🧩" not in slots_on(TODAY))
+check("project only on its days", "🧪" in slots_on(TODAY) and "🧪" not in slots_on(date(2026, 10, 29)))
+check("Saturday gets both", slots_on(date(2026, 10, 31)) == ["🧪", "🧩"])
 morning = C.morning_message(data, r, datetime(2026, 10, 28, 7, 0))
 check("morning nudges overdue tasks", "OVERDUE" in morning and "G1.1" in morning)
 check("morning isn't marked late at 07:00", "sent late" not in morning)

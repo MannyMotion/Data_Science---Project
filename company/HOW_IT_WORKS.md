@@ -17,7 +17,7 @@ remind and celebrate.
 | 🏆 [Assessor](roles/assessor.md) | Points, streaks, ranks, celebrations | `python company/tools/assessor.py` *(free)* |
 
 ## My rhythm
-- **Every day:** see the [routine card](ROUTINE_CARD.md). The Coach's 07:00 message gives today's 3 tasks;
+- **Every day:** see the [routine card](ROUTINE_CARD.md). The Coach's 07:00 message gives today's plan (one task per block);
   the 21:45 check-in asks what got done.
 - **When I finish a task:** `python plan/goal.py done <id>` → celebration, points, the board updates.
 - **When I learn something:** 3 sentences in `LEARNING_LOG.md`. That's my interview answer.

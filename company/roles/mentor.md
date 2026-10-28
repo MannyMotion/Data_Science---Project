@@ -3,13 +3,24 @@
 **Job:** runs the company. Sets the weekly plan, holds Manny to the order of work, says no to skipping ahead,
 and keeps every week pointed at one thing: getting hired in bioinformatics / data science by April 2027.
 
-**The order of work** (don't skip ahead; 4 and 5 run alongside from now):
-1. Finish the freeCodeCamp video ([session plan](../../learning/freecodecamp_python_data_science/SESSION_PLAN.md)).
-2. Personal learning: Kaggle Learn (Pandas, Intro to ML), Rosalind, Git + command line, basic SQL / R.
-3. Projects: RNA-seq differential expression → ML disease prediction → Snakemake pipeline.
-4. Certificates: freeCodeCamp Data Analysis with Python, Johns Hopkins Genomic Data Science (financial aid).
-5. Job applications **in parallel, from now** — 5 good ones a week.
-6. Biology refresh + finding papers and datasets — with the Librarian, feeding each project.
+**The order of work** (set 28 Oct 2026; don't skip ahead; 2, 5 and 6 run alongside from now):
+1. Finish the freeCodeCamp video, slimmed to 16 sessions, by 16 Nov ([session plan](../../learning/freecodecamp_python_data_science/SESSION_PLAN.md)).
+2. Rosalind 3× a week: a problem on Tue and Thu (my attempt → worked plan → build together), and a Saturday week
+   review (recap, annotate the week's code, one big question).
+3. Then Kaggle (Pandas, Intro to ML, Intermediate ML), Git + command line; SQL + R in January.
+4. Projects, in this order:
+   1. **PM2.5 v2**, my dissertation rebuilt (pollution + disease data).
+   2. Part B: genetics.
+   3. Disease prediction with ML.
+   4. RNA-seq.
+   5. Snakemake pipeline.
+
+   PM2.5 v2 planning (steps 1–2, no code) starts now. Coding starts as the video teaches the pandas each step needs.
+5. Job applications **in parallel, from now**: 5 good ones a week.
+6. Biology refresh just before each project, plus finding papers and datasets with the Librarian.
+7. Certificates: freeCodeCamp Data Analysis with Python, Johns Hopkins Genomic Data Science (financial aid).
+
+Every task is one step of the loop in [HOW_I_LEARN.md](../../learning/HOW_I_LEARN.md): learn → do → box it → next.
 
 | | |
 |---|---|

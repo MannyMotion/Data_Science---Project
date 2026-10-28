@@ -2,7 +2,7 @@
   "owner": "Manny (Emmanuel Ogbu)",
   "vision": "Work as a bioinformatician / data scientist by April 2027, with a portfolio that proves I can turn biological data into answers.",
   "deadline": "2027-04-01",
-  "this_week": ["G2.1", "G7.1", "G1.1", "G1.2", "G8.1", "G9.1", "G9.2"],
+  "this_week": ["G2.1", "G2.2", "G2.3", "G3.1", "G3.2", "G5.1", "G5.2", "G1.1", "G1.2", "G13.1", "G14.1", "G14.2", "G12.1"],
   "goals": [
     {
       "id": "G1",
@@ -12,352 +12,234 @@
       "target_date": "2027-04-01",
       "celebration": "Big one - choose it yourself and write it here.",
       "tasks": [
-        {
-          "id": "G1.1",
-          "title": "Read 10 real job adverts and list the skills that repeat (private/job_hunt/JOB_ADVERT_SKILLS.md)",
-          "due": "2026-11-01",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G1.2",
-          "title": "Look up this year's NHS STP bioinformatics + graduate scheme dates (private/job_hunt/APPLICATIONS.md)",
-          "due": "2026-11-01",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G1.3",
-          "title": "Update CV: BioAgent + the 470-hypothesis statistics project",
-          "due": "2026-11-08",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G1.4",
-          "title": "LinkedIn: new headline + pin BioAgent",
-          "due": "2026-11-08",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G1.5",
-          "title": "Send the first 5 applications",
-          "due": "2026-11-15",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G1.6",
-          "title": "25 applications sent",
-          "due": "2026-12-20",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G1.7",
-          "title": "First interview",
-          "due": "2027-01-31",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G1.8",
-          "title": "Job offer accepted",
-          "due": "2027-04-01",
-          "done": false,
-          "done_on": null
-        }
+        {"id": "G1.1", "title": "Read 10 real job adverts and list the skills that repeat (private/job_hunt/JOB_ADVERT_SKILLS.md)", "due": "2026-11-01", "done": false, "done_on": null},
+        {"id": "G1.2", "title": "Look up this year's NHS STP bioinformatics + graduate scheme dates (private/job_hunt/APPLICATIONS.md)", "due": "2026-11-01", "done": false, "done_on": null},
+        {"id": "G1.3", "title": "Update CV: BioAgent + the 470-hypothesis statistics project", "due": "2026-11-08", "done": false, "done_on": null},
+        {"id": "G1.4", "title": "LinkedIn: new headline + pin BioAgent", "due": "2026-11-08", "done": false, "done_on": null},
+        {"id": "G1.5", "title": "Send the first 5 applications", "due": "2026-11-15", "done": false, "done_on": null},
+        {"id": "G1.6", "title": "25 applications sent", "due": "2026-12-20", "done": false, "done_on": null},
+        {"id": "G1.7", "title": "First interview", "due": "2027-01-31", "done": false, "done_on": null},
+        {"id": "G1.8", "title": "Job offer accepted", "due": "2027-04-01", "done": false, "done_on": null}
       ]
     },
     {
       "id": "G2",
-      "title": "Python + pandas fluency",
+      "title": "freeCodeCamp video: Python for data science (16 sessions)",
       "category": "Skills",
-      "why": "Every bioinformatics and data science job assumes this. It is the foundation for the projects.",
-      "target_date": "2026-12-31",
+      "why": "The pandas every later step uses. Slimmed: Regex and Project #4 skipped, the machine learning chapter kept. Each session is one box to tick.",
+      "target_date": "2026-11-16",
       "celebration": "Choose a treat and write it here.",
       "tasks": [
-        {
-          "id": "G2.1",
-          "title": "Finish the freeCodeCamp 'Learn Python for Data Science' video, typing every example myself",
-          "due": "2026-11-08",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G2.2",
-          "title": "Kaggle Learn: Pandas certificate",
-          "due": "2026-11-08",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G2.3",
-          "title": "Rosalind: 10 problems solved",
-          "due": "2026-11-15",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G2.4",
-          "title": "Git + command-line basics (clone, branch, commit, push; cd, ls, grep, pipes)",
-          "due": "2026-11-30",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G2.5",
-          "title": "Kaggle Learn: Intro to Machine Learning certificate",
-          "due": "2026-11-30",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G2.6",
-          "title": "Rosalind: 30 problems solved",
-          "due": "2026-12-31",
-          "done": false,
-          "done_on": null
-        }
+        {"id": "G2.1", "title": "S1 · Recap my pandas notebook (20 min) + finish Project #1 web scraping (to 4:05:36)", "due": "2026-10-29", "done": false, "done_on": null},
+        {"id": "G2.2", "title": "S2 · Filtering data 4:05:36 → 4:45", "due": "2026-10-30", "done": false, "done_on": null},
+        {"id": "G2.3", "title": "S3 · Filtering data 4:45 → 5:34:46", "due": "2026-10-31", "done": false, "done_on": null},
+        {"id": "G2.4", "title": "S4 · Data extraction 5:34:46 → 6:15", "due": "2026-11-02", "done": false, "done_on": null},
+        {"id": "G2.5", "title": "S5 · Data extraction 6:15 → 6:55", "due": "2026-11-03", "done": false, "done_on": null},
+        {"id": "G2.6", "title": "S6 · Data extraction 6:55 → 7:31:57", "due": "2026-11-04", "done": false, "done_on": null},
+        {"id": "G2.7", "title": "S7 · Reshaping + pivoting 7:31:57 → 7:50:59, then Project #2 visualisations → 8:10", "due": "2026-11-05", "done": false, "done_on": null},
+        {"id": "G2.8", "title": "S8 · Project #2 visualisations 8:10 → 8:56:39", "due": "2026-11-06", "done": false, "done_on": null},
+        {"id": "G2.9", "title": "S9 · GroupBy + aggregate functions 8:56:39 → 9:35", "due": "2026-11-07", "done": false, "done_on": null},
+        {"id": "G2.10", "title": "S10 · GroupBy + aggregate functions 9:35 → 10:07:41", "due": "2026-11-09", "done": false, "done_on": null},
+        {"id": "G2.11", "title": "S11 · Merging + concatenating 10:07:41 → 10:45", "due": "2026-11-10", "done": false, "done_on": null},
+        {"id": "G2.12", "title": "S12 · Merging + concatenating 10:45 → 11:20", "due": "2026-11-11", "done": false, "done_on": null},
+        {"id": "G2.13", "title": "S13 · Merging → 11:49:12, skip Regex, Project #3 data cleaning 12:45:45 → 12:58", "due": "2026-11-12", "done": false, "done_on": null},
+        {"id": "G2.14", "title": "S14 · Project #3 data cleaning 12:58 → 13:38", "due": "2026-11-13", "done": false, "done_on": null},
+        {"id": "G2.15", "title": "S15 · Project #3 data cleaning 13:38 → 14:17:45", "due": "2026-11-14", "done": false, "done_on": null},
+        {"id": "G2.16", "title": "S16 · Machine learning with Python 14:17:45 → 14:43:45 - video finished", "due": "2026-11-16", "done": false, "done_on": null}
       ]
     },
     {
       "id": "G3",
-      "title": "Project 1 - Gene expression analysis (RNA-seq, real GEO data)",
-      "category": "Portfolio",
-      "why": "The classic bioinformatician task. This is the project I talk about in every interview.",
-      "target_date": "2026-12-13",
+      "title": "Rosalind: Tue + Thu problems, Saturday week review",
+      "category": "Practice",
+      "days": ["Tue", "Thu", "Sat"],
+      "why": "Small, real biology questions that train the 7-step method. Each one: my attempt → review → worked plan → build it together → recap. Saturday: the week's big question + every line of the week's code annotated.",
+      "target_date": "2027-02-27",
       "celebration": "Choose a treat and write it here.",
       "tasks": [
-        {
-          "id": "G3.1",
-          "title": "Pick a public dataset + the paper it came from (ideally one figure to reproduce)",
-          "due": "2026-11-15",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G3.2",
-          "title": "Load, clean and explore the counts (QC plots)",
-          "due": "2026-11-22",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G3.3",
-          "title": "Differential expression: healthy vs disease (volcano plot)",
-          "due": "2026-11-29",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G3.4",
-          "title": "Pathway / gene-set enrichment on the top genes",
-          "due": "2026-12-06",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G3.5",
-          "title": "Write the README: question, data, method, results, figures, limitations",
-          "due": "2026-12-13",
-          "done": false,
-          "done_on": null
-        }
+        {"id": "G3.1", "title": "R1 · GC - GC content (worked example: plan → build together → recap)", "due": "2026-10-29", "done": false, "done_on": null},
+        {"id": "G3.2", "title": "Week 1 review · recap + annotate the week's code + the big question", "due": "2026-10-31", "done": false, "done_on": null},
+        {"id": "G3.3", "title": "R2 · DNA - counting nucleotides", "due": "2026-11-03", "done": false, "done_on": null},
+        {"id": "G3.4", "title": "R3 · RNA - transcribing DNA into RNA", "due": "2026-11-05", "done": false, "done_on": null},
+        {"id": "G3.5", "title": "Week 2 review · recap + annotate the week's code + the big question", "due": "2026-11-07", "done": false, "done_on": null},
+        {"id": "G3.6", "title": "R4 · REVC - the reverse complement", "due": "2026-11-10", "done": false, "done_on": null},
+        {"id": "G3.7", "title": "R5 · HAMM - counting point mutations", "due": "2026-11-12", "done": false, "done_on": null},
+        {"id": "G3.8", "title": "Week 3 review · recap + annotate the week's code + the big question", "due": "2026-11-14", "done": false, "done_on": null},
+        {"id": "G3.9", "title": "R6 · PROT - translating RNA into protein", "due": "2026-11-17", "done": false, "done_on": null},
+        {"id": "G3.10", "title": "R7 · SUBS - finding a motif in DNA", "due": "2026-11-19", "done": false, "done_on": null},
+        {"id": "G3.11", "title": "Week 4 review · recap + annotate the week's code + the big question", "due": "2026-11-21", "done": false, "done_on": null},
+        {"id": "G3.12", "title": "R8 · FIB - rabbits and recurrence relations", "due": "2026-11-24", "done": false, "done_on": null},
+        {"id": "G3.13", "title": "R9 · CONS - consensus and profile", "due": "2026-11-26", "done": false, "done_on": null},
+        {"id": "G3.14", "title": "Week 5 review · recap + annotate the week's code + the big question", "due": "2026-11-28", "done": false, "done_on": null},
+        {"id": "G3.15", "title": "R10 · GRPH - overlap graphs (10 solved)", "due": "2026-12-01", "done": false, "done_on": null},
+        {"id": "G3.16", "title": "20 Rosalind problems solved", "due": "2027-01-16", "done": false, "done_on": null},
+        {"id": "G3.17", "title": "30 Rosalind problems solved", "due": "2027-02-27", "done": false, "done_on": null}
       ]
     },
     {
       "id": "G4",
-      "title": "Project 2 - Disease prediction with machine learning",
-      "category": "Portfolio",
-      "why": "Shows data science: proper validation, honest metrics, no data leakage.",
+      "title": "Courses + tools: Kaggle, Git, SQL, R",
+      "category": "Skills",
+      "why": "Fills what the video doesn't cover. Each one lands just before the project step that needs it.",
       "target_date": "2027-01-31",
       "celebration": "Choose a treat and write it here.",
       "tasks": [
-        {
-          "id": "G4.1",
-          "title": "Choose a gene-expression dataset with disease labels",
-          "due": "2026-12-20",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G4.2",
-          "title": "Baseline model with cross-validation (and a held-out test set kept sealed)",
-          "due": "2027-01-10",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G4.3",
-          "title": "Feature importance + which genes drive the prediction",
-          "due": "2027-01-24",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G4.4",
-          "title": "README write-up with honest results",
-          "due": "2027-01-31",
-          "done": false,
-          "done_on": null
-        }
+        {"id": "G4.1", "title": "Kaggle Learn: Pandas certificate", "due": "2026-11-21", "done": false, "done_on": null},
+        {"id": "G4.2", "title": "Kaggle Learn: Intro to Machine Learning certificate (before the PM2.5 v2 model step)", "due": "2026-11-28", "done": false, "done_on": null},
+        {"id": "G4.3", "title": "Git + command-line basics (clone, branch, commit, push; cd, ls, grep, pipes)", "due": "2026-12-05", "done": false, "done_on": null},
+        {"id": "G4.4", "title": "Kaggle Learn: Intermediate ML (pipelines, cross-validation, XGBoost, data leakage)", "due": "2026-12-12", "done": false, "done_on": null},
+        {"id": "G4.5", "title": "SQL: Kaggle Intro to SQL certificate", "due": "2027-01-17", "done": false, "done_on": null},
+        {"id": "G4.6", "title": "R basics: data frames, dplyr, ggplot2 + one small analysis", "due": "2027-01-31", "done": false, "done_on": null}
       ]
     },
     {
       "id": "G5",
-      "title": "Project 3 - A real pipeline (Snakemake)",
+      "title": "Project 1 - PM2.5 v2: air pollution and health, done properly (my dissertation, rebuilt)",
       "category": "Portfolio",
-      "why": "Closes the gap my friend spotted: 'coding a pipeline' = raw reads to results, reproducible, one command.",
-      "target_date": "2027-02-28",
+      "days": ["Mon", "Wed", "Fri", "Sat"],
+      "why": "My MSc dissertation rebuilt the right way: one question the data can answer, honest methods, a real pipeline. My number-one interview story.",
+      "target_date": "2026-12-19",
       "celebration": "Choose a treat and write it here.",
       "tasks": [
-        {
-          "id": "G5.1",
-          "title": "Learn the Snakemake basics (rules, inputs, outputs, wildcards)",
-          "due": "2027-02-07",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G5.2",
-          "title": "Pipeline: FASTQ -> quality check -> alignment -> gene counts on a small public dataset",
-          "due": "2027-02-21",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G5.3",
-          "title": "README + one-command run instructions (conda environment file)",
-          "due": "2027-02-28",
-          "done": false,
-          "done_on": null
-        }
+        {"id": "G5.1", "title": "Step 1a · Read my dissertation review + 3 papers on PM2.5 and heart / lung disease → 1-page background", "due": "2026-10-31", "done": false, "done_on": null},
+        {"id": "G5.2", "title": "Step 1b · PLAN.md: the question, the outcome, the unit (council area × year), what would prove me wrong, confounders - no code", "due": "2026-11-04", "done": false, "done_on": null},
+        {"id": "G5.3", "title": "Step 2a · Find the data: PM2.5, disease rates, deprivation per council area - source, link, years, licence (data/README.md)", "due": "2026-11-07", "done": false, "done_on": null},
+        {"id": "G5.4", "title": "Step 2b · Download script: every file into data/raw/ by code, not by hand", "due": "2026-11-13", "done": false, "done_on": null},
+        {"id": "G5.5", "title": "Step 3 · Look: shape, columns, years, area codes, missing values for each file", "due": "2026-11-18", "done": false, "done_on": null},
+        {"id": "G5.6", "title": "Step 4a · Clean each source: area-code changes, financial vs calendar years, units", "due": "2026-11-25", "done": false, "done_on": null},
+        {"id": "G5.7", "title": "Step 4b · Merge into one tidy table (area × year) and prove no rows were silently lost", "due": "2026-11-28", "done": false, "done_on": null},
+        {"id": "G5.8", "title": "Step 5a · Explore: plots + correlations (PM2.5 vs disease vs deprivation)", "due": "2026-12-04", "done": false, "done_on": null},
+        {"id": "G5.9", "title": "Step 5b · Model: predict-the-mean baseline → linear regression → random forest, split by area, with vs without PM2.5", "due": "2026-12-12", "done": false, "done_on": null},
+        {"id": "G5.10", "title": "Step 6 · Check: sanity checks, a second outcome or year, honest limitations", "due": "2026-12-16", "done": false, "done_on": null},
+        {"id": "G5.11", "title": "Step 7 · Report: README (question, data, method, results, figures, limitations, how to run) + requirements.txt", "due": "2026-12-19", "done": false, "done_on": null}
       ]
     },
     {
       "id": "G6",
+      "title": "Project 2 - PM2.5 v2 Part B: adding the genetics, correctly",
+      "category": "Portfolio",
+      "days": ["Mon", "Wed", "Fri", "Sat"],
+      "why": "Finish what the dissertation started: genetic data that can actually answer a question next to Part A, with per-person scores and variants matched on position.",
+      "target_date": "2027-01-30",
+      "celebration": "Choose a treat and write it here.",
+      "tasks": [
+        {"id": "G6.1", "title": "Steps 1-2 · Find genetic data that can answer a question next to Part A → PLAN.md", "due": "2027-01-09", "done": false, "done_on": null},
+        {"id": "G6.2", "title": "Steps 3-4 · Load + clean: match variants on chromosome + position (the 2025 bug)", "due": "2027-01-16", "done": false, "done_on": null},
+        {"id": "G6.3", "title": "Steps 5-6 · Compute + check (e.g. a real per-person polygenic score)", "due": "2027-01-23", "done": false, "done_on": null},
+        {"id": "G6.4", "title": "Step 7 · Report: README + how it connects to Part A", "due": "2027-01-30", "done": false, "done_on": null}
+      ]
+    },
+    {
+      "id": "G7",
+      "title": "Project 3 - Disease prediction with machine learning",
+      "category": "Portfolio",
+      "days": ["Mon", "Wed", "Fri", "Sat"],
+      "why": "A second ML project on a disease dataset, to compare with PM2.5 v2 and show proper validation: honest metrics, no leakage.",
+      "target_date": "2027-02-27",
+      "celebration": "Choose a treat and write it here.",
+      "tasks": [
+        {"id": "G7.1", "title": "Choose a disease dataset + question (7-step PLAN.md)", "due": "2027-02-06", "done": false, "done_on": null},
+        {"id": "G7.2", "title": "Baseline model with cross-validation (and a held-out test set kept sealed)", "due": "2027-02-13", "done": false, "done_on": null},
+        {"id": "G7.3", "title": "Feature importance + what drives the prediction", "due": "2027-02-20", "done": false, "done_on": null},
+        {"id": "G7.4", "title": "README with honest results + what changed compared with PM2.5 v2", "due": "2027-02-27", "done": false, "done_on": null}
+      ]
+    },
+    {
+      "id": "G8",
+      "title": "Project 4 - Gene expression analysis (RNA-seq, real GEO data)",
+      "category": "Portfolio",
+      "days": ["Mon", "Wed", "Fri", "Sat"],
+      "why": "The classic bioinformatician task: healthy vs disease, which genes change and why.",
+      "target_date": "2027-04-03",
+      "celebration": "Choose a treat and write it here.",
+      "tasks": [
+        {"id": "G8.1", "title": "Pick a public dataset + the paper it came from (ideally one figure to reproduce)", "due": "2027-03-06", "done": false, "done_on": null},
+        {"id": "G8.2", "title": "Load, clean and explore the counts (QC plots)", "due": "2027-03-13", "done": false, "done_on": null},
+        {"id": "G8.3", "title": "Differential expression: healthy vs disease (volcano plot)", "due": "2027-03-20", "done": false, "done_on": null},
+        {"id": "G8.4", "title": "Pathway / gene-set enrichment on the top genes", "due": "2027-03-27", "done": false, "done_on": null},
+        {"id": "G8.5", "title": "Write the README: question, data, method, results, figures, limitations", "due": "2027-04-03", "done": false, "done_on": null}
+      ]
+    },
+    {
+      "id": "G9",
+      "title": "Project 5 - A real pipeline (Snakemake)",
+      "category": "Portfolio",
+      "days": ["Mon", "Wed", "Fri", "Sat"],
+      "why": "'Coding a pipeline' = raw reads to results, reproducible, one command. Lands after April unless the order changes at a monthly review.",
+      "target_date": "2027-04-24",
+      "celebration": "Choose a treat and write it here.",
+      "tasks": [
+        {"id": "G9.1", "title": "Learn the Snakemake basics (rules, inputs, outputs, wildcards)", "due": "2027-04-10", "done": false, "done_on": null},
+        {"id": "G9.2", "title": "Pipeline: FASTQ -> quality check -> alignment -> gene counts on a small public dataset", "due": "2027-04-17", "done": false, "done_on": null},
+        {"id": "G9.3", "title": "README + one-command run instructions (conda environment file)", "due": "2027-04-24", "done": false, "done_on": null}
+      ]
+    },
+    {
+      "id": "G10",
+      "title": "Biology refresh + research skills",
+      "category": "Research",
+      "days": ["Mon", "Wed", "Fri", "Sat"],
+      "why": "Every project starts with the biology behind it. Refresh it just before you need it, and learn to find papers and datasets.",
+      "target_date": "2027-03-27",
+      "celebration": "Choose a treat and write it here.",
+      "tasks": [
+        {"id": "G10.1", "title": "Genetics refresh before Part B: SNPs, GWAS, linkage, polygenic scores, VCF files → 1-page notes", "due": "2027-01-02", "done": false, "done_on": null},
+        {"id": "G10.2", "title": "Disease biology refresh for Project 3 + find its paper and dataset (company/library)", "due": "2027-02-03", "done": false, "done_on": null},
+        {"id": "G10.3", "title": "RNA-seq biology refresh: transcription, counts, normalisation, differential expression → notes", "due": "2027-03-03", "done": false, "done_on": null},
+        {"id": "G10.4", "title": "Reproduce one figure from a published paper (with Project 4)", "due": "2027-03-27", "done": false, "done_on": null}
+      ]
+    },
+    {
+      "id": "G11",
       "title": "Certificates that back up the CV",
       "category": "Credentials",
       "why": "Get past CV keyword filters. Supports the projects, never replaces them.",
       "target_date": "2027-03-31",
       "celebration": "Choose a treat and write it here.",
       "tasks": [
-        {
-          "id": "G6.1",
-          "title": "Apply for Coursera financial aid (Johns Hopkins Genomic Data Science)",
-          "due": "2026-11-15",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G6.2",
-          "title": "freeCodeCamp: Data Analysis with Python certification",
-          "due": "2026-12-20",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G6.3",
-          "title": "Johns Hopkins Genomic Data Science specialization",
-          "due": "2027-03-31",
-          "done": false,
-          "done_on": null
-        }
+        {"id": "G11.1", "title": "Apply for Coursera financial aid (Johns Hopkins Genomic Data Science)", "due": "2026-11-15", "done": false, "done_on": null},
+        {"id": "G11.2", "title": "freeCodeCamp: Data Analysis with Python certification", "due": "2027-02-28", "done": false, "done_on": null},
+        {"id": "G11.3", "title": "Johns Hopkins Genomic Data Science specialization", "due": "2027-03-31", "done": false, "done_on": null}
       ]
     },
     {
-      "id": "G7",
+      "id": "G12",
       "title": "Make my work visible",
       "category": "Visibility",
       "why": "Recruiters spend seconds. What they can see quickly decides the interview.",
       "target_date": "2027-01-15",
       "celebration": "Choose a treat and write it here.",
       "tasks": [
-        {
-          "id": "G7.1",
-          "title": "BioAgent README: screenshots + a 2-minute demo GIF/video",
-          "due": "2026-11-08",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G7.2",
-          "title": "Clean up this repo's README as my portfolio front page",
-          "due": "2026-11-15",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G7.3",
-          "title": "Case-study repo: 'Testing 470 trading hypotheses honestly' (statistics, no account details)",
-          "due": "2027-01-15",
-          "done": false,
-          "done_on": null
-        }
+        {"id": "G12.1", "title": "BioAgent README: screenshots + a 2-minute demo GIF/video", "due": "2026-11-08", "done": false, "done_on": null},
+        {"id": "G12.2", "title": "Clean up this repo's README as my portfolio front page", "due": "2026-11-15", "done": false, "done_on": null},
+        {"id": "G12.3", "title": "Pin PM2.5 v2 on GitHub + a LinkedIn post about rebuilding my dissertation", "due": "2026-12-22", "done": false, "done_on": null},
+        {"id": "G12.4", "title": "Case-study repo: 'Testing 470 trading hypotheses honestly' (statistics, no account details)", "due": "2027-01-15", "done": false, "done_on": null}
       ]
     },
     {
-      "id": "G8",
+      "id": "G13",
       "title": "Network with people in the field",
       "category": "Network",
       "why": "Most jobs come through people. Real problems from real teams make the best projects.",
       "target_date": "2027-01-31",
       "celebration": "Choose a treat and write it here.",
       "tasks": [
-        {
-          "id": "G8.1",
-          "title": "Message Ed + my interviewers: 'what would a junior get in month one?' (private/job_hunt/CONTACTS.md)",
-          "due": "2026-11-01",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G8.2",
-          "title": "3 informational chats with bioinformaticians / data scientists",
-          "due": "2026-12-31",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G8.3",
-          "title": "5 informational chats",
-          "due": "2027-01-31",
-          "done": false,
-          "done_on": null
-        }
+        {"id": "G13.1", "title": "Message Ed + my interviewers: 'what would a junior get in month one?' (private/job_hunt/CONTACTS.md)", "due": "2026-11-01", "done": false, "done_on": null},
+        {"id": "G13.2", "title": "3 informational chats with bioinformaticians / data scientists", "due": "2026-12-31", "done": false, "done_on": null},
+        {"id": "G13.3", "title": "5 informational chats", "due": "2027-01-31", "done": false, "done_on": null}
       ]
     },
     {
-      "id": "G9",
+      "id": "G14",
       "title": "Keep the grind sustainable",
       "category": "Life",
       "why": "Five months is a marathon. Steady beats burnt out.",
       "target_date": "2027-04-01",
       "celebration": "Choose a treat and write it here.",
       "tasks": [
-        {
-          "id": "G9.1",
-          "title": "Fill in my life goals in private/VISION.md",
-          "due": "2026-11-01",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G9.2",
-          "title": "First weekly review done (plan/WEEKLY_REVIEW_TEMPLATE.md)",
-          "due": "2026-11-01",
-          "done": false,
-          "done_on": null
-        },
-        {
-          "id": "G9.3",
-          "title": "4 weekly reviews in a row",
-          "due": "2026-11-29",
-          "done": false,
-          "done_on": null
-        }
+        {"id": "G14.1", "title": "Fill in my life goals in private/VISION.md", "due": "2026-11-01", "done": false, "done_on": null},
+        {"id": "G14.2", "title": "First weekly review done (plan/WEEKLY_REVIEW_TEMPLATE.md)", "due": "2026-11-01", "done": false, "done_on": null},
+        {"id": "G14.3", "title": "4 weekly reviews in a row", "due": "2026-11-29", "done": false, "done_on": null}
       ]
     }
   ]

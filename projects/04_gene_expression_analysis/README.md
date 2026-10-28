@@ -1,4 +1,4 @@
-# Project 1 — Gene expression analysis (RNA-seq) · goal G3
+# Project 4 — Gene expression analysis (RNA-seq) · goal G8
 
 _Status: not started. Fill each section in as you go — this README is what recruiters read._
 
